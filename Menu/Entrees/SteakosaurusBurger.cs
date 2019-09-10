@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Menu.Entrees
+namespace DinoDiner.Menu.Entrees
 {
     public class SteakosaurusBurger
     {
@@ -16,7 +16,7 @@ namespace Menu.Entrees
         {
             get
             {
-                List<string> ingredients = new List<string>() { "Patty" };
+                List<string> ingredients = new List<string>() { "Steakburger Pattie" };
                 if (bun) ingredients.Add("Whole Wheat Bun");
                 if (pickle) ingredients.Add("Pickle");
                 if (ketchup) ingredients.Add("Ketchup");

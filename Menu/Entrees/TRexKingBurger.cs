@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Menu.Entrees
+namespace DinoDiner.Menu.Entrees
 {
     public class TRexKingBurger
     {
@@ -20,11 +20,11 @@ namespace Menu.Entrees
         {
             get
             {
-                List<string> ingredients = new List<string>() { "Patty", "Patty", "Patty" };
+                List<string> ingredients = new List<string>() { "Steakburger Pattie", "Steakburger Pattie", "Steakburger Pattie" };
                 if (bun) ingredients.Add("Whole Wheat Bun");
                 if (lettuce) ingredients.Add("Lettuce");
                 if (tomato) ingredients.Add("Tomato");
-                if (onion) ingredients.Add("Onions");
+                if (onion) ingredients.Add("Onion");
                 if (pickle) ingredients.Add("Pickle");
                 if (ketchup) ingredients.Add("Ketchup");
                 if (mustard) ingredients.Add("Mustard");
@@ -54,7 +54,7 @@ namespace Menu.Entrees
             this.tomato = false;
         }
 
-        public void HoldOnions()
+        public void HoldOnion()
         {
             this.onion = false;
         }

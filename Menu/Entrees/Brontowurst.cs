@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Menu.Entrees
+namespace DinoDiner.Menu.Entrees
 {
     public class Brontowurst
     {
@@ -18,7 +18,7 @@ namespace Menu.Entrees
                 List<string> ingredients = new List<string>() { "Brautwurst" };
                 if (bun) ingredients.Add("Whole Wheat Bun");
                 if (peppers) ingredients.Add("Peppers");
-                if (onions) ingredients.Add("Onions");
+                if (onions) ingredients.Add("Onion");
                 return ingredients;
             }
         }
@@ -29,7 +29,7 @@ namespace Menu.Entrees
             this.Calories = 498;
         }
 
-        public void HoldPepper()
+        public void HoldPeppers()
         {
             this.peppers = false;
         }
